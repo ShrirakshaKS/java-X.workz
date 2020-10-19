@@ -9,6 +9,8 @@ float percentageOfStudent=85;
 double chargeOfElectron=1.60217662;
 char grade=80;
 boolean earthIsFlat=false;
+String s="learning java";
+
 System.out.println(fingers);
 System.out.println(daysInAYear);
 System.out.println(numberOfEnginersInIndia);
@@ -17,5 +19,6 @@ System.out.println(percentageOfStudent);
 System.out.println(chargeOfElectron);
 System.out.println(grade);
 System.out.println(earthIsFlat);
+System.out.println(s);
 }
 }
