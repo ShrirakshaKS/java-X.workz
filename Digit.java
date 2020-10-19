@@ -10,6 +10,7 @@ float massValueOfIron=55.845f;
 double squarerootOf14=3.741657386d;
 char f=102;
 boolean bloodColorIsRed= true;
+String train="I'm a trainee";
 System.out.println(daysInAWeek);
 System.out.println(electricityBillPerMonth);
 System.out.println(salaryOfPresidentOfIndia);
@@ -18,5 +19,6 @@ System.out.println(massValueOfIron);
 System.out.println(squarerootOf14);
 System.out.println(f);
 System.out.println(bloodColorIsRed);
+System.out.println(train);
 }
 }
