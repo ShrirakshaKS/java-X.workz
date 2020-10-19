@@ -10,6 +10,7 @@ float freshWaterOnEarth=0.09f;
 double atomicMassOfBeryllium=9.012182d;
 char z=122;
 boolean sunIsAStar=true;
+String india="It is a largest democratic nation";
 System.out.println(digitInAClockDisplay);
 System.out.println(priceOfGoldPerGram);
 System.out.println(speciesOnEarth);
@@ -18,5 +19,6 @@ System.out.println(freshWaterOnEarth);
 System.out.println(atomicMassOfBeryllium);
 System.out.println(z);
 System.out.println(sunIsAStar);
+System.out.println(india);
 }
 }
