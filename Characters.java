@@ -22,12 +22,11 @@ char[] allAgeGroup = { ageBetween1To10,ageBetween11To20,ageBetween31To40,ageBetw
 int countOfArray=allAgeGroup.length;
 System.out.println("The length of Array is " + countOfArray);
 char elementAtIndex1=allAgeGroup[2];
-System.out.println("number of people between 21 to 30 represented in group: " + allAgeGroup[2]);
-System.out.println("number of people between 61 to 70 represented in group: " + allAgeGroup[6]);
+System.out.println("number of people between 31 to 40 represented in group: " + elementAtIndex1);
+System.out.println("number of people between 71 to 80 represented in group: " + allAgeGroup[6]);
 
-System.out.println("number of people between 91 to 100 represented in group: " + allAgeGroup[9]);
+System.out.println("number of people between 101 to 110 represented in group: " + allAgeGroup[9]);
 
-System.out.println(ageBetween101To110);
 
 }
 }
