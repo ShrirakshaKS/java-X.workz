@@ -1,7 +1,7 @@
 public class Diversity{		
-	public static void main(String[] loc)	{		
+	public static void main(String[] place)	{		
 	System.out.println("JVM invokes main");
-	String[] statesNames={"Andhra Pradesh",
+	String[] namesOfState={"Andhra Pradesh",
 	"Bihar",
 	"Gujarat",
 	"Himachal Pradesh",
@@ -17,28 +17,32 @@ public class Diversity{
 	"Tripura",
 	"Uttar Pradesh"
 	 };
-	states(statesNames);
+	states(namesOfState);
 	}
-	public static void states(String[] divider)
+	public static void states(String[] location)
 	{
-	int size=divider.length;
-	System.out.println("Number of states here are: "+size);
+	int numberOfStates=location.length;
+	System.out.println("Number of states: "+numberOfStates);
 	
-	System.out.println("State name @ index 0 "+divider[0]);
-	System.out.println("State name @ index 1 "+divider[1]);
-	System.out.println("State name @ index 2 "+divider[2]);
-	System.out.println("State name @ index 3 "+divider[3]);
-	System.out.println("State name @ index 4 "+divider[4]);
-	System.out.println("State name @ index 5 "+divider[5]);
-	System.out.println("State name @ index 6 "+divider[6]);
-	System.out.println("State name @ index 7 "+divider[7]);
-	System.out.println("State name @ index 8 "+divider[8]);
-	System.out.println("State name @ index 9 "+divider[9]);
-	System.out.println("State name @ index 10"+divider[10]);
-	System.out.println("State name @ index 11"+divider[11]);
-	System.out.println("State name @ index 12 "+divider[12]);
-	System.out.println("State name @ index 13 "+divider[13]);
-	System.out.println("State name @ index 14 "+divider[14]);
+	System.out.println("Name of State at index 0: "+location[0]);
+	System.out.println("Name of State at index 1: "+location[1]);
+	System.out.println("Name of State at index 2: "+location[2]);
+	System.out.println("Name of State at index 3: "+location[3]);
+	System.out.println("Name of State at index 4: "+location[4]);
+	System.out.println("Name of State at index 5: "+location[5]);
+	System.out.println("Name of State at index 6: "+location[6]);
+	System.out.println("Name of State at index 7: "+location[7]);
+	System.out.println("Name of State at index 8: "+location[8]);
+	System.out.println("Name of State at index 9: "+location[9]);
+	System.out.println("Name of State at index 10: "+location[10]);
+	System.out.println("Name of State at index 11: "+location[11]);
+	System.out.println("Name of State at index 12: "+location[12]);
+	System.out.println("Name of State at index 13: "+location[13]);
+	System.out.println("Name of State at index 14: "+location[14]);
+	
+	
+	
+	
 	;
 }
 }
