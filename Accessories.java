@@ -2,12 +2,11 @@ public class Accessories{
 
 	public static void main(String[] accessories){
 		System.out.println("JVM invoked main");	
-      		String country="Russia";
-		
-		country="japan";		
+      		String country="Russia";	
 
-		countryName("India");		
-	
+	countryName("India");	
+		
+	countryName("Bharat");	
 		countryName(country);
 
 		System.out.println("main method exit");
