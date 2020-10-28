@@ -2,12 +2,6 @@ public class Changer{
 public static void main(String[] conv)
 {
 String changer="57";
-// String digi="9";
-//String alpha="S";
-
-
-// String decider="8.8975";
-// String sunIsAStar="true";
 
 byte converter=Byte.parseByte(changer);
 System.out.println("byte form of string is:"+ converter);
