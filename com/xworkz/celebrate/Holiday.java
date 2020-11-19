@@ -19,6 +19,26 @@ public static void main(String leave[])
 	double math=Math.random();
 	System.out.println(math);
 	
+	String name="Shriraksha";
+	System.out.println(name.toLowerCase());  //java.lang.string.toLowerCase
+	
+	System.out.println(name.toUpperCase());  //java.lang.string.toUpperCase
+	
+		char ch='a';
+		System.out.println(Character.isDigit(ch));
+		
+	
+	String lastName="Kundapur";
+	boolean equal=name.equals(lastName); //java.lang.string.equals
+	System.out.println("Is 2 string are equal? "+ equal);
+	
+	StringBuilder str= new StringBuilder("Java Programming Language");
+	System.out.println(str.delete(4,15)); 
+	
+	System.out.println(leave[0]); //java.lang.ArrayIndexOutOfBoundsException
+	
+	int number=9/0;
+	System.out.println(number);  //java.lang.ArithmeticException
 	
 	
 }
