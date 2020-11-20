@@ -1,7 +1,7 @@
 package com.xworkz.concepts.obj;
 
-public class Mobile {
-	
+public class Mobile 
+{	
 	public static String founder;
 	public String modelName;
 	public String colorOfModel;
@@ -16,5 +16,4 @@ public class Mobile {
 		System.out.println("Year of release: "+ yearOfRelease);
 		System.out.println("Indian market price: "+ price);
 	}
-	
 }
