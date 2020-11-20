@@ -1,7 +1,6 @@
 package com.xworkz.concepts;
 import com.xworkz.concepts.obj.Mobile;
 
-
 public class MobileTester {
 
 	public static void main(String[] args) {
